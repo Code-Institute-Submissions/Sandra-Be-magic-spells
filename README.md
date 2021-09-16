@@ -1,9 +1,8 @@
 # magic-spells
-# Find Defibrillator
 
-![Find Defibrillator](assets/project_files/website/responsive_d.jpg "Find Defibrillator")
+![](assets/project_files/website/responsive_d.jpg "")
 
-* [Click here](https://sandra-be.github.io/find_defibrillator/) and view the live project.
+* [Click here](https://sandra-be.github.io//) and view the live project.
 
 # Table of contents
 
