@@ -21,11 +21,11 @@
         <!-- Top navbar -->
         <nav class="nav-extended text-shadow purple darken-2">
             <div class="nav-wrapper">
-            <a href="{{ url_for('get_spells') }}" class="brand-logo">Magic Spells</a>
+            <a href="#" class="brand-logo">Magic Spells</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="{{ url_for('get_spells') }}">Home</a></li>
-                <li><a href="#">Spells</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="{{ url_for('get_spells') }}">Spells</a></li>
                 <li><a href="#">Magical Tools</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Add spell</a></li>
@@ -39,8 +39,8 @@
         <!-- Mobile sidebar -->
         <ul class="sidenav" id="mobile-demo">
             <li><h4 class="center-align text-shadow purple-text text-darken-2">Magic Spells</h4></li>
-            <li><a href="{{ url_for('get_spells') }}">Home</a></li>
-            <li><a href="#">Spells</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="{{ url_for('get_spells') }}">Spells</a></li>
             <li><a href="#">Magical Tools</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Add spell</a></li>
@@ -50,8 +50,23 @@
         </ul>
     </header>
 
-    {% block content %}
-    {% endblock %}
+    <section>
+        <!-- Dispaying flash messages -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="row flashes">
+                        <h4 class="purple lighten-4 center-align">{{ message }}</h4>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </section>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
