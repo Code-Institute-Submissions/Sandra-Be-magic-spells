@@ -107,6 +107,7 @@ Colours of dark grey, light grey and green palette [mycolor.space](http://mycolo
 
 ### Fonts
 
+Gloria Hallelujah, Raleway fonts are the main fonts for website and Sans Serif font is used as fallback.
 
 ### Media
 
