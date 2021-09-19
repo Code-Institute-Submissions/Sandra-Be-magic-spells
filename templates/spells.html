@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h2>Extending base template</h2>
-
     {% for spell in spells %}
         {{ spell.spell_title }}<br>
         {{ spell.category_name }}<br>
