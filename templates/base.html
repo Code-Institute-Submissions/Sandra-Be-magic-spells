@@ -19,7 +19,7 @@
     
     <header>
         <!-- Top navbar -->
-        <nav class="nav-extended text-shadow purple darken-3">
+        <nav class="nav-extended text-shadow purple darken-2">
             <div class="nav-wrapper">
             <a href="{{ url_for('get_spells') }}" class="brand-logo">Magic Spells</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
@@ -31,14 +31,14 @@
                 <li><a href="#">Add spell</a></li>
                 <li><a href="#">Log Out</a></li>
                 <li><a href="#">Log In</a></li>
-                <li><a href="#">Register</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
             </ul>
             </div>
         </nav>
         
         <!-- Mobile sidebar -->
         <ul class="sidenav" id="mobile-demo">
-            <li><h4 class="center-align purple-text text-darken-3">Magic Spells</h4></li>
+            <li><h4 class="center-align text-shadow purple-text text-darken-2">Magic Spells</h4></li>
             <li><a href="{{ url_for('get_spells') }}">Home</a></li>
             <li><a href="#">Spells</a></li>
             <li><a href="#">Magical Tools</a></li>
@@ -46,7 +46,7 @@
             <li><a href="#">Add spell</a></li>
             <li><a href="#">Log Out</a></li>
             <li><a href="#">Log In</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="{{ url_for('register') }}">Register</a></li>
         </ul>
     </header>
 
