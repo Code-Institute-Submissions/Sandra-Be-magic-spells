@@ -10,6 +10,8 @@
         {{ spell.spell_date }}<br>
     {% endfor %} -->
 
+    <h3 class="light-blue-text text-darken-4 center-align">Magic Spells</h3>
+
     <ul class="collapsible">
         {% for spell in spells %}
         <li>
@@ -22,6 +24,7 @@
                 <p>{{ spell.spell_description }}</p>
                 <p>{{ spell.spell_list }}</p>
                 <p>{{ spell.spell_process }}</p>
+                <p><em>Added by: {{ spell.added_by }}</em></p>
             </div>
         </li>
         {% endfor %}

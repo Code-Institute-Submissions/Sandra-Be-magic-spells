@@ -99,8 +99,22 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_spell")
+@app.route("/add_spell", methods=["GET", "POST"])
 def add_spell():
+    if request.method == "POST":
+        spell = {
+            "category_name": request.form.get("category_name"),
+            "spell_title": request.form.get("spell_title"),
+            "spell_description": request.form.get("spell_description"),
+            "spell_list": request.form.get("spell_list"),
+            "spell_process": request.form.get("spell_process"),
+            "spell_date": request.form.get("spell_date"),
+            "added_by": session["user"]
+        }
+        mongo.db.spells.insert_one(spell)
+        flash("Spell Successfully Added")
+        return redirect(url_for("get_spells"))
+
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_spell.html", categories=categories)
 
