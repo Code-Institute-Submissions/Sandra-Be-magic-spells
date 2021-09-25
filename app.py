@@ -101,7 +101,8 @@ def logout():
 
 @app.route("/add_spell")
 def add_spell():
-    return render_template("add_spell.html")
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("add_spell.html", categories=categories)
 
 
 if __name__ == "__main__":
