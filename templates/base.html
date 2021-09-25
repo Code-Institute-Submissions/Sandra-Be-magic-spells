@@ -29,7 +29,7 @@
                 <li><a href="#">Magical Tools</a></li>
                 {% if session.user %}
                     <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    <li><a href="#">Add spell</a></li>
+                    <li><a href="{{ url_for('add_spell') }}">Add Spell</a></li>
                     <li><a href="{{ url_for('logout') }}">Log Out</a></li>
                 {% else %}
                     <li><a href="{{ url_for('login') }}">Log In</a></li>
@@ -47,7 +47,7 @@
             <li><a href="#">Magical Tools</a></li>
             {% if session.user %}
                 <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                <li><a href="#">Add spell</a></li>
+                <li><a href="{{ url_for('add_spell') }}">Add Spell</a></li>
                 <li><a href="{{ url_for('logout') }}">Log Out</a></li>
             {% else %}
                 <li><a href="{{ url_for('login') }}">Log In</a></li>
