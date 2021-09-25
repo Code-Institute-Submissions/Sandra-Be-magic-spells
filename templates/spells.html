@@ -1,28 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {% for spell in spells %}
+    <!-- {% for spell in spells %}
         {{ spell.spell_title }}<br>
         {{ spell.category_name }}<br>
         {{ spell.spell_description }}<br>
         {{ spell.spell_list }}<br>
         {{ spell.spell_process }}<br>
         {{ spell.spell_date }}<br>
-    {% endfor %}
+    {% endfor %} -->
 
     <ul class="collapsible">
+        {% for spell in spells %}
         <li>
-          <div class="collapsible-header indigo-text text-lighten-4 grey darken-3 text-shadow"><i class="fas fa-caret-down">filter_drama</i>First</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            <div class="collapsible-header indigo-text text-lighten-4 grey darken-3 text-shadow">
+                <i class="fas fa-caret-down"></i>
+                <strong>{{ spell.spell_title }}</strong> : {{ spell.spell_date }}
+            </div>
+            <div class="collapsible-body indigo-text text-lighten-4 grey darken-2">
+                <strong>{{ spell.category_name }}</strong>
+                <p>{{ spell.spell_description }}</p>
+                <p>{{ spell.spell_list }}</p>
+                <p>{{ spell.spell_process }}</p>
+            </div>
         </li>
-        <li>
-          <div class="collapsible-header indigo-text text-lighten-4 grey darken-3 text-shadow"><i class="fas fa-caret-down">place</i>Second</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div class="collapsible-header indigo-text text-lighten-4 grey darken-3 text-shadow"><i class="fas fa-caret-down">whatshot</i>Third</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-      </ul>
+        {% endfor %}
+    </ul>
 
 {% endblock %}

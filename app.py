@@ -21,7 +21,7 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_spells")
 def get_spells():
-    spells = mongo.db.spells.find()
+    spells = list(mongo.db.spells.find())
     return render_template("spells.html", spells=spells)
 
 
