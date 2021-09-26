@@ -4,9 +4,8 @@
 /* General */
 body {
 	font-family: 'Raleway', sans-serif;
-/*    background-image: url(../images/magic3.jpg);
+    background-image: url(../images/magic3.jpg);
     background-size: cover;
-*/
 }
 
 h1,
@@ -20,8 +19,9 @@ h4 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-.brand-logo {
+nav .brand-logo {
     font-family: 'Gloria Hallelujah', sans-serif;
+    padding-left: 30px;
 }
 
 .flashes h4 {
