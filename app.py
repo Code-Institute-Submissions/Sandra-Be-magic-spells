@@ -119,6 +119,13 @@ def add_spell():
     return render_template("add_spell.html", categories=categories)
 
 
+@app.route("/edit_spell/<spell_id>", methods=["GET", "POST"])
+def edit_spell(spell_id):
+    spell = mongo.db.spells.find_one({"_id": ObjectId(spell_id)})
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("edit_spell.html", spell=spell, categories=categories)
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
