@@ -139,6 +139,13 @@ def edit_spell(spell_id):
     return render_template("edit_spell.html", spell=spell, categories=categories)
 
 
+@app.route("/delete_spell/<spell_id>")
+def delete_spell(spell_id):
+    mongo.db.spells.remove({"_id": ObjectId(spell_id)})
+    flash("Spell Deleted")
+    return redirect(url_for("get_spells"))
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
