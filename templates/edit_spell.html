@@ -11,9 +11,13 @@
                 <div class="input-field col s12">
                     <i class="fas fa-folder-open prefix light-green-text text-darken-4"></i>
                     <select id="category_name" name="category_name" class="validate" required>
-                        <option value="" disabled selected>Choose Category</option>
+                        <option value="" disabled>Choose Category</option>
                         {% for category in categories %}
-                            <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                            {% if category.category_name == spell.category_name %}
+                                <option value="{{ category.category_name }}" selected>{{ category.category_name }}</option>
+                            {% else %}
+                                <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                            {% endif %}
                         {% endfor %}
                     </select>
                     <label for="category_name">Spell Category</label>
@@ -24,7 +28,7 @@
                 <div class="input-field col s12">
                     <i class="fas fa-pencil-alt prefix light-green-text text-darken-4"></i>
                     <input id="spell_title" name="spell_title" minlength="5" maxlength="100"
-                        type="text" class="validate" required>
+                        value="{{ spell.spell_title }}" type="text" class="validate" required>
                     <label for="spell_title">Spell Title</label>
                 </div>
             </div>
@@ -33,7 +37,9 @@
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
                     <textarea id="spell_description" name="spell_description" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
+                        maxlength="600" class="materialize-textarea validate" required>
+                        {{- spell.spell_description -}}
+                    </textarea>
                     <label for="spell_description">Spell Description</label>
                 </div>
             </div>
@@ -42,7 +48,9 @@
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
                     <textarea id="spell_list" name="spell_list" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
+                        maxlength="300" class="materialize-textarea validate" required>
+                        {{- spell.spell_list -}}
+                    </textarea>
                     <label for="spell_list">Spell Ingredients</label>
                 </div>
             </div>
@@ -51,7 +59,9 @@
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
                     <textarea id="spell_process" name="spell_process" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
+                        maxlength="800" class="materialize-textarea validate" required>
+                        {{- spell.spell_process -}}
+                    </textarea>
                     <label for="spell_process">Spell Process</label>
                 </div>
             </div>
@@ -59,13 +69,18 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix light-green-text text-darken-4"></i>
-                    <input id="spell_date" name="spell_date" type="text" class="datepicker validate" required>
+                    <input id="spell_date" name="spell_date" type="text"
+                        value="{{ spell.spell_date }}" class="datepicker validate" required>
                     <label for="spell_date">Spell Added on</label>
                 </div>
             </div>
             <!-- Submit Button -->
             <div class="row">
                 <div class="col s12 center-align">
+                    <!-- Cancel Button -->
+                    <a href="{{ url_for('get_spells') }}" class="btn-large red text-shadow">
+                        Cancel <i class="fas fa-times-circle right"></i>
+                    </a>
                     <button type="submit" class="btn-large light-green darken-4 text-shadow">
                         Edit Spell <i class="fas fa-edit right"></i>
                     </button>
