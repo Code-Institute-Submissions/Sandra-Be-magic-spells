@@ -121,6 +121,19 @@ def add_spell():
 
 @app.route("/edit_spell/<spell_id>", methods=["GET", "POST"])
 def edit_spell(spell_id):
+    if request.method == "POST":
+        submit = {
+            "category_name": request.form.get("category_name"),
+            "spell_title": request.form.get("spell_title"),
+            "spell_description": request.form.get("spell_description"),
+            "spell_list": request.form.get("spell_list"),
+            "spell_process": request.form.get("spell_process"),
+            "spell_date": request.form.get("spell_date"),
+            "added_by": session["user"]
+        }
+        mongo.db.spells.update({"_id": ObjectId(spell_id)}, submit)
+        flash("Spell Successfully Updated")
+
     spell = mongo.db.spells.find_one({"_id": ObjectId(spell_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_spell.html", spell=spell, categories=categories)
