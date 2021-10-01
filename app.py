@@ -25,6 +25,13 @@ def get_spells():
     return render_template("spells.html", spells=spells)
 
 
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    spells = list(mongo.db.spells.find({"$text": {"$search": query}}))
+    return render_template("spells.html", spells=spells)
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
