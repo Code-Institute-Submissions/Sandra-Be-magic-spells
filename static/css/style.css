@@ -92,3 +92,17 @@ nav .brand-logo {
     color: #c5cae9;
     font-family: 'Raleway', sans-serif;
 }
+
+/* Footer */
+
+.page-footer {
+    padding-bottom: 20px;
+}
+
+.page-footer i {
+    color: #c5cae9;
+}
+
+.page-footer i:hover {
+    color: #33691e;
+}
