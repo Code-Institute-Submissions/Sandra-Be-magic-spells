@@ -26,7 +26,8 @@ nav .brand-logo {
 
 .flashes h4 {
     font-family: 'Raleway', sans-serif;
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 20px !important;
 }
 
 /* Login */
@@ -63,4 +64,11 @@ nav .brand-logo {
 .collapsible-header .col strong {
     margin: 5px;
     line-height: 42px;
+}
+
+/* Profile */
+
+.login-card a {
+    color: #c5cae9;
+    font-family: 'Raleway', sans-serif; 
 }
