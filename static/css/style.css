@@ -30,6 +30,16 @@ nav .brand-logo {
     font-size: 20px !important;
 }
 
+/* Home page */
+
+.home-photo {
+    float: left;
+}
+
+.card-image img {
+    height: 250px;
+}
+
 /* Login */
 
 .login-card {
