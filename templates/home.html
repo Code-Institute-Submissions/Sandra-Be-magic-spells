@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="row login-card">
+        <div class="col s12 m8 offset-m2">
+            <div class="card-panel">
+                <h1 class="center-align indigo-text text-lighten-4">Magic Spells</h1>
+                <div class="row">
+                    <img class="col s12 m6 responsive-img" src="static/images/magic2.jpg" alt="Girl with book">
+                
+                    <div class="col s12 m6">
+                        <p class="center-align indigo-text text-lighten-4">
+                            When we believe in ourselves and call upon the power of nature and the universe to help us, our wishes come true
+                            for all the things we want in life - and yes, even the material things!
+                        </p>
+                        <div class="row">
+                            <div class=" center-align text-center s12 m6">
+                                <a href="{{ url_for('get_spells') }}" class="btn-large text-shadow purple darken-2 waves-effect waves-light">
+                                    Search for Spell
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel black">
+                            <h4 class="center-align indigo-text text-lighten-4">"What makes you different or weird - that's your strength."</h3>
+                            <p class="center-align indigo-text text-lighten-4">Meryl Streep</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="static/images/magic1.jpg" alt="Magic poitions">
+                            </div>
+                            <div class="card-content grey">
+                                <span class="card-title activator">
+                                    Magical Tools <i class="fas fa-ellipsis-v right prefix light-green-text text-darken-4"></i>
+                                </span>
+                                <a href="#" class="btn text-shadow purple darken-2 waves-effect waves-light">Discover More</a>
+                            </div>
+                            <div class="card-reveal indigo-text text-lighten-4 grey darken-2">
+                                <span class="card-title">
+                                    Magical Tools <i class="fas fa-times right red-text text-darken-2 waves-effect waves-light"></i>
+                                </span>
+                                <p>Magical Tools are used to support your magical work. The physical tools help you to focus your magical
+                                    energy. The magical tools offer guidance about the correct course of action, or provide insight into your
+                                    life and current state of mind. Here is some more information about these tools that is only revealed
+                                    once clicked on button "Discover More".</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="static/images/magic3.jpg" alt="Magic">
+                            </div>
+                            <div class="card-content grey">
+                                <span class="card-title activator">
+                                    Community Power <i class="fas fa-ellipsis-v right prefix light-green-text text-darken-4"></i>
+                                </span>
+                                <a href="{{ url_for('register') }}" class="btn text-shadow purple darken-2 waves-effect waves-light">Register</a>
+                            </div>
+                            <div class="card-reveal indigo-text text-lighten-4 grey darken-2">
+                                <span class="card-title">
+                                    Community Power <i class="fas fa-times right red-text text-darken-2 waves-effect waves-light"></i>
+                                </span>
+                                <p>Magic works hand in hand with your belief system. If you believe strongly enough that you can do
+                                    something then there is nothing and no one that can stop you from achieving it. Join our
+                                    community and help others to embrace themselves.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
