@@ -21,10 +21,10 @@
         <!-- Top navbar -->
         <nav class="nav-extended text-shadow purple darken-2">
             <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Magic Spells</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
+            <a href="{{ url_for('home') }}" class="brand-logo">Magic Spells</a>
+            <a href="{{ url_for('home') }}" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
                 <li><a href="{{ url_for('get_spells') }}">Spells</a></li>
                 <li><a href="#">Magical Tools</a></li>
                 {% if session.user %}
@@ -42,7 +42,7 @@
         <!-- Mobile sidebar -->
         <ul class="sidenav" id="mobile-demo">
             <li><h4 class="center-align text-shadow purple-text text-darken-2">Magic Spells</h4></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="{{ url_for('get_spells') }}">Spells</a></li>
             <li><a href="#">Magical Tools</a></li>
             {% if session.user %}
