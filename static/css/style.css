@@ -24,6 +24,10 @@ nav .brand-logo {
     padding-left: 30px;
 }
 
+nav ul li:hover {
+    background-color: #c5cae9;
+}
+
 .flashes h4 {
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
@@ -38,6 +42,10 @@ nav .brand-logo {
 
 .card-image img {
     height: 250px;
+}
+
+.card-panel h1 {
+    padding-bottom: 20px;
 }
 
 /* Login */
