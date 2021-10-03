@@ -31,34 +31,32 @@
                             <a href="{{ url_for('add_spell') }}" class="btn purple darken-2 text-shadow waves-effect waves-light">Add Spell</a>
                         </div>
                     </div>
-                {% endif %}
+                {% endif %} 
 
                 <!-- Showing user spells -->
-                <ul class="collapsible">
-                    {% for spell in spells %}
-                    <li>
-                        <div class="collapsible-header indigo-text text-lighten-4 grey darken-3 text-shadow">
-                            <div class="col s3">
-                                <i class="fas fa-caret-down"></i>
-                                <!-- {% if session.user|lower == spell.added_by|lower %} -->
-                                    <a href="{{ url_for('delete_spell', spell_id=spell._id) }}" class="btn-small red darken-2 text-shadow waves-effect waves-light">Delete</a>
-                                    <a href="{{ url_for('edit_spell', spell_id=spell._id) }}" class="btn-small purple darken-2 text-shadow waves-effect waves-light">Edit</a>
-                                <!-- {% endif %} -->                               
+                {% for spell in spells %}
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header grey">
+                                <div class="col s4">
+                                    <i class="fas fa-caret-down"></i>
+                                        <a href="{{ url_for('delete_spell', spell_id=spell._id) }}" class="btn red darken-2 text-shadow waves-effect waves-light">Delete</a>
+                                        <a href="{{ url_for('edit_spell', spell_id=spell._id) }}" class="btn purple darken-2 text-shadow waves-effect waves-light">Edit</a>                               
+                                </div>
+                                <div class="col s8">
+                                    <strong>{{ spell.spell_title }}</strong> : {{ spell.spell_date }}
+                                </div>
                             </div>
-                            <div class="col s9">
-                                <strong>{{ spell.spell_title }}</strong> : {{ spell.spell_date }}
+                            <div class="collapsible-body indigo-text text-lighten-4 grey darken-2">
+                                <strong>{{ spell.category_name }}</strong>
+                                <p><u>Description:</u> {{ spell.spell_description }}</p>
+                                <p><u>You will need:</u> {{ spell.spell_list }}</p>
+                                <p><u>What you do:</u> {{ spell.spell_process }}</p>
+                                <p><em>Added by: {{ spell.added_by }}</em></p>
                             </div>
-                        </div>
-                        <div class="collapsible-body indigo-text text-lighten-4 grey darken-2">
-                            <strong>{{ spell.category_name }}</strong>
-                            <p>{{ spell.spell_description }}</p>
-                            <p>{{ spell.spell_list }}</p>
-                            <p>{{ spell.spell_process }}</p>
-                            <p><em>Added by: {{ spell.added_by }}</em></p>
-                        </div>
-                    </li>
-                    {% endfor %}
-                </ul>
+                        </li>
+                    </ul>
+                {% endfor %}
             </div>
         </div>
     </div>
