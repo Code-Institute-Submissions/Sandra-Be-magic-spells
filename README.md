@@ -54,29 +54,71 @@
 # Introduction
 
 
+I have always been interested in old traditions, from pagan times to white witchcraft and the the connections that these create with the mind spirit and the earth, living in a world that has become sick, the earth is unhealthy and our lifesyles are stressed were we have lost all connections and stopped listening to our planet.
+
+So I was inspired to follow and seek traditional ways to help bring our mind spirit and body back to the basics were we hear ourselves again, listen to the world around us in a spirital, pure sense and awaking the true us as emotional spiritual beings.
+
+I am creating the perfect collection of spells for the amatuer who desires to channel the potent magic of nature.
+
 # UX
 
 ## Strategy
 ### Website strategy
 
+* Create online presence 
+* Create database of spells 
+* Promote emotional wellbeing
+* Provide information about creating spells 
+* Links available for products relating to spells 
+* Provide an opportunity to log in/register with the spiritual community 
+* Provide an opportunity to seek other user spells 
+* Provide an opportunity for user to add/edit/delete spells 
+* Provide access for web designer/admin to add/edit/delete spell categories
 
 ![Strategy](assets/project_files/website/strategy_def.jpg "Strategy")
 
 ### Target audience
 
+* People seeking a spiritual path
+* People looking to reconnect with the magic of nature
+* People seeking inspiration
 
 ### External Visitor's goal's
 
+* To find easy accessable information about life spells
+* To find a community with the same belief system
+* To be able to become a member of the community
+* To be able to quickly navigate throughout the site and find any information required
+* To be able to share spells with other members in community
+* To be able to search for needed spell 
+* To locate a link for an external resource
 
 ### Ideal client
 
+* A person who is free thinking
+* A person who is spiritualy aware
+* A person who wants to broaden there horizons
+* A person who is seeking a like minded community
 
 ### Site Owner's goal's
 
+* To build a platform to be able to grow a community of wellbeing and mindfulness
+* To provide an opportunity for new user to become a member of the spiritual community
+* To provide a database of the website member spells
+* To provide an option for members to add/edit/delete their own spells
+* To provide separate options for admin to add/edit/delete spell categories
+* To provide a link to external sites for magical tools
 
 ## Scope
 ### User stories
 
+1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can better develop my personal wellbeing.
+2. As a new client to this website, I want to get a wide range of spells, so I can apply them to my lifestyle. 
+3. As a new client to this website, I want to have the option to search for the spells I'm looking for, so I can find what I need.
+4. As a new client to this website, I want to access an external resource link for magical tools, so I can purchase a product.
+5. As a new client to this website, I want to join this website, so I can become a part of this community.
+6. As a client to this website, I want to share my spells with other members in the community, so I can help people in their challenges.
+7. As a client to this website, I want to take an action on shared spells, so I can develop and grow the database.
 
 ### Features
 
@@ -142,6 +184,8 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Features to Implement in future
 
+* Provide ability for admin to delete other user spells
+* Provide the structure where pictures match the spell category on selection
 
 # Testing
 
