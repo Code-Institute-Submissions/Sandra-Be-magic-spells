@@ -31,6 +31,12 @@ def get_spells():
     return render_template("spells.html", spells=spells)
 
 
+@app.route("/tools")
+def tools():
+    tools = mongo.db.tools.find()
+    return render_template("tools.html", tools=tools)
+
+
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
