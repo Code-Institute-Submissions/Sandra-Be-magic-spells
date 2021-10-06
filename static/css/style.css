@@ -36,12 +36,17 @@ nav ul li:hover {
 
 /* Home page */
 
-.card-image img {
-    height: 250px;
+.responsive-img {
+	object-fit: contain;
 }
 
 .card-panel h1 {
     padding-bottom: 20px;
+}
+
+.home-info p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Add Spell page */
