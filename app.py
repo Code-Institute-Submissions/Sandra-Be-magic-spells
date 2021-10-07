@@ -9,15 +9,20 @@ if os.path.exists("env.py"):
     import env
 
 
+#Configuration
 app = Flask(__name__)
 
+#Passing Mongo database url via environment
 app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+#Passing Secret Key via environment
 app.secret_key = os.environ.get("SECRET_KEY")
 
+#Creating Mongo app
 mongo = PyMongo(app)
 
 
+#Home page
 @app.route("/")
 @app.route("/home")
 def home():
@@ -25,18 +30,21 @@ def home():
     return render_template("home.html", home=home)
 
 
+#Spell page
 @app.route("/get_spells")
 def get_spells():
     spells = list(mongo.db.spells.find())
     return render_template("spells.html", spells=spells)
 
 
+#Magical Tools page
 @app.route("/tools")
 def tools():
     tools = mongo.db.tools.find()
     return render_template("tools.html", tools=tools)
 
 
+#Search
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
@@ -44,6 +52,7 @@ def search():
     return render_template("spells.html", spells=spells)
 
 
+#Register page
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -69,6 +78,7 @@ def register():
     return render_template("register.html")
 
 
+#Log In page
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -98,6 +108,7 @@ def login():
     return render_template("login.html")
 
 
+#Profile page
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
     # grab the session user's username from database
@@ -111,6 +122,7 @@ def profile(username):
     return redirect(url_for("login"))
 
 
+#Log out page
 @app.route("/logout")
 def logout():
     # remove user from session cookies
@@ -119,6 +131,7 @@ def logout():
     return redirect(url_for("login"))
 
 
+#Add Spell page
 @app.route("/add_spell", methods=["GET", "POST"])
 def add_spell():
     if request.method == "POST":
@@ -139,6 +152,7 @@ def add_spell():
     return render_template("add_spell.html", categories=categories)
 
 
+#Edit Spell page
 @app.route("/edit_spell/<spell_id>", methods=["GET", "POST"])
 def edit_spell(spell_id):
     if request.method == "POST":
@@ -159,6 +173,7 @@ def edit_spell(spell_id):
     return render_template("edit_spell.html", spell=spell, categories=categories)
 
 
+#Delete
 @app.route("/delete_spell/<spell_id>")
 def delete_spell(spell_id):
     mongo.db.spells.remove({"_id": ObjectId(spell_id)})
@@ -166,12 +181,14 @@ def delete_spell(spell_id):
     return redirect(url_for("get_spells"))
 
 
+#Categories page
 @app.route("/get_categories")
 def get_categories():
     categories = list(mongo.db.categories.find().sort("category_name", 1))
     return render_template("categories.html", categories=categories)
 
 
+#Add Category page
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
     if request.method == "POST":
@@ -185,6 +202,7 @@ def add_category():
     return render_template("add_category.html")
 
 
+#Edit Category page
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
     if request.method == "POST":
@@ -199,13 +217,15 @@ def edit_category(category_id):
     return render_template("edit_category.html", category=category)
 
 
+#Delete Category page
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
     flash("Spell Category Successfully Deleted")
     return redirect(url_for("get_categories"))
 
-
+#Run the App
+#Change debug from True to False before submitting
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
