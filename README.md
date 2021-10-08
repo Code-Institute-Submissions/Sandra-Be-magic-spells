@@ -1,4 +1,4 @@
-# magic-spells
+# Magic Spells
 
 ![](assets/project_files/website/responsive_d.jpg "")
 
