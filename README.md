@@ -156,20 +156,18 @@ Gloria Hallelujah, Raleway fonts are the main fonts for website and Sans Serif f
 
 ### Languages
 
-This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS) and [JS](https://en.wikipedia.org/wiki/JavaScript) Javascript (JS).
+This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS), [jQ](https://en.wikipedia.org/wiki/JQuery) jQuery (jQuery) and [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) Python.
 
 ### Technologies Used
 
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
-* [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the navigation bar, image carousel and form, which makes website responsive.
+* [Materialize Css](https://materializecss.com/about.html) - to simplify the structure of website and make it responsive.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).
 * [JQuery](https://jquery.com/) came with Bootstrap.
 * Project code stored on [GitHub](https://github.com/).
 * [gitpod.io](https://gitpod.io/workspaces) was used for coding.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
-* [EmailJS services](https://dashboard.emailjs.com/sign-in) used for user to send an email.
-* [SweetAlert](https://sweetalert.js.org/guides/#installation) for pop-up message after email has been sent.
 * [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
 * [jshint.com](http://jshint.com) used for JavaScript code validation.
 * [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
@@ -250,7 +248,7 @@ HTTPS is required for requests that use an API key.
 ## Deploying on GitHub Pages
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "GitHub Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -261,7 +259,7 @@ HTTPS is required for requests that use an API key.
 ## Forking the Repository
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
 3. At the top of the repository, on the right side of the page, select "Fork".
 4. You should now have a copy of the original repository in your GitHub account.
 
@@ -270,13 +268,13 @@ HTTPS is required for requests that use an API key.
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-4. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+4. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
 5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 ### How to run this project within a local IDE, such as VSCode
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
 3. Under the repository name, click "Clone or download".
 4. In the Clone with HTTPs section, copy the clone URL for the repository.
 5. In your local IDE open the terminal.
