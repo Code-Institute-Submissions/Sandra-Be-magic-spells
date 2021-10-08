@@ -25,11 +25,11 @@
                 </div>
 
                 {% if spells|length > 0 %}
-                    <ul class="collapsible">
+                    <ul class="collapsible spell">
                         {% for spell in spells %}
                         <li>
                             <div class="collapsible-header grey">
-                                <div class="col s12">
+                                <div class="col s12 spell-line">
                                     <i class="fas fa-caret-down"></i>
                                     <strong>{{ spell.spell_title }}</strong> : {{ spell.spell_date }}
                                 </div>
