@@ -9,6 +9,7 @@ body {
 }
 
 h1,
+h2,
 h3,
 h4 {
 	font-family: 'Gloria Hallelujah', sans-serif;
@@ -114,6 +115,30 @@ nav ul li:hover {
 .profile-card h5 {
     color: #c5cae9;
     font-family: 'Raleway', sans-serif;
+}
+
+.spell .spell-line {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+/* Modal */
+
+.modal {
+    background-color: #bdbdbd;
+}
+
+.modal .modal-footer {
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 0px 6px;
+}
+
+.modal-content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px !important;
+    color: black;
+    text-shadow: none;
 }
 
 /* Footer */
