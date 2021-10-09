@@ -75,7 +75,7 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 * Provide an opportunity for user to add/edit/delete spells 
 * Provide access for web designer/admin to add/edit/delete spell categories
 
-![Strategy](assets/project_files/website/strategy_def.jpg "Strategy")
+![Strategy](project_files/website/strategy_3.jpg "Strategy")
 
 ### Target audience
 
