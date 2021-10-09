@@ -134,18 +134,18 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 ## Skeleton
 ### Quick sketch
 
-![Quick sketch](assets/project_files/website/d_sketch.jpg "Quick sketch")
+![Quick sketch](project_files/website/d_sketch.jpg "Quick sketch")
 
 ### Wireframes
 
-![Wireframes](assets/project_files/wireframes/aed_wireframe.png "Wireframes") 
+![Wireframes](project_files/wireframes/aed_wireframe.png "Wireframes") 
 
 ## Design
 ### Colour scheme
 
-Colours of dark grey, light grey and green palette [mycolor.space](http://mycolor.space) is used throughout site.
+Colours of purple, indigo, light green, light grey and red palette [mycolor.space](http://mycolor.space) is used throughout site.
 
-![Colour palette](assets/project_files/website/d_color_palette.jpg "Colour palette")
+![Colour palette](project_files/website/colours.jpg "Colour palette")
 
 ### Fonts
 
