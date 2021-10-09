@@ -38,8 +38,9 @@ nav ul li:hover {
 
 /* Home page */
 
-.responsive-img {
+img .responsive-img {
 	object-fit: contain;
+    margin: 0 auto;
 }
 
 .card-panel h1 {
