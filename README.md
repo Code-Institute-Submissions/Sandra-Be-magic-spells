@@ -38,13 +38,14 @@
    * [Bugs and Issues](#Bugs-and-Issues)
    * [User stories testing](#User-stories-testing)
    * [Functional testing](#Function-testing)
-5. [Google Maps Platform](#Google-Maps-Platform)
-   * [Creating API keys](#Creating-API-keys)
-   * [Adding the API key to your request](#Adding-the-API-key-to-your-request)
+5. [Database Design](#Database-Design)
+   * [Database schema](#Database-schema)
 6. [Deployment](#Deployment)
+   * [MongoDB Configuration](#MongoDB-Configuration)
    * [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
    * [Forking the Repository](#Forking-the-Repository)
    * [Creating a Clone](#Creating-a-Clone)
+   * [Heroku Deployment](#Heroku-Deployment)
 7. [Credits](#Credits)
    * [Images and text](#Images-and-text)
    * [Code](#Code)
@@ -161,6 +162,8 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 ### Technologies Used
 
 * [BSON](https://bsonspec.org/) - bson.objectid is a required dependency for MongoDB management system.
+* [MongoDB](https://www.mongodb.com/) - used for database functionality.
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - used to host the database.
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
 * [Materialize Css](https://materializecss.com/about.html) - library used to simplify the structure of website and make it responsive.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
@@ -299,28 +302,29 @@ Throughout the website every link, field and icon was tested and all results are
 | Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
 | :----: | :----: | :----: | :----: | :----: |
 
-# Google Maps Platform
+# Database Design
 
-The API key is a unique identifier that authenticates requests associated with your project for usage and billing purposes. You must have at least one API key associated with your project.
+MongoDB Atlas is used as database backend for storing user and recipes details. There are three collections.
 
-## Creating API keys
+## Database schema
 
-To create an API key:
-1. Go to the **Google Maps Platform > Credentials** page.
-2. On the **Credentials** page, click **Create credentials > API key**.
-   The **API key created** dialog displays your newly created API key.
-3. Click **Close**.
-   The new API key is listed on the **Credentials** page under **API keys**.
 
-## Adding the API key to your request
-
-You must include an API key with every Maps JavaScript API request. In the following example, replace **YOUR_API_KEY** with your API key.
-
-![API key](assets/project_files/website/api.jpg "API key")
-
-HTTPS is required for requests that use an API key.
 
 # Deployment
+
+## MongoDB Configuration
+
+1. Login to your [MongoDB](https://www.mongodb.com/) Account.
+2. From Clusters tab, click on Connect.
+3. Select Connect to your application.
+4. Select Python as Driver and choose Version 3.6 or later
+5. Create a new env python file in your project, paste and save the connection link and variables.
+
+![Link](project_files/website/link_snippet.jpg "Link")
+
+6. Create an instance of PyMongo.
+
+![Link](project_files/website/link_snippet1.jpg "Link")
 
 ## Deploying on GitHub Pages
 
@@ -364,11 +368,15 @@ HTTPS is required for requests that use an API key.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
+## Heroku Deployment
+
+
 # Credits
 
 ## Images and text
 
-* All photos used on this website were obtained from [google.com]().
+* Home page and background image on this website were obtained from [bing.com](https://www.bing.com/images/search?q=magic+photos+with+girl&form=HDRSC2&first=1&tsc=ImageBasicHover).
+* Magical Tools images were obtained from [White Magic Alchemy](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2)
 
 ## Code
 
@@ -376,12 +384,9 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Helpfull sites
 
-* [www.w3schools](https://www.w3schools.com/) - website for code tips.
-* [Bootstrap4](https://getbootstrap.com/docs/4.1/layout/overview/) - Bootstrap Library was used to make site responsive.
 * [stackoverflow.com](https://stackoverflow.com/) - website for code tips.
-* [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, Bootstrap and JavaScript study materials.
+* [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, JavaScript and Python study materials.
 * [www.markdownguide.org](https://www.markdownguide.org/basic-syntax) - useful website for Markdown language creating README.md file.
-* [github.com](https://github.com/) - code snippets for project.
 
 ## Acknowledgements 
 
