@@ -1,8 +1,8 @@
 # Magic Spells
 
-![](assets/project_files/website/responsive_d.jpg "")
+![](project_files/website/responsive_d.jpg "")
 
-* [Click here](https://sandra-be.github.io//) and view the live project.
+* [Click here](https://magic-spells-project.herokuapp.com/) and view the live project.
 
 # Table of contents
 
