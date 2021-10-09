@@ -217,7 +217,7 @@ Using card layout, users can discover more about available Magical Tools and get
 * Log In is possible after registered.
 * User gets a flash message when loged in.
 * Users can be redirected directly to Registration Page if not already registered.
-* User get redirected to Profile Page after login in.
+* User get redirected to Profile Page after logged in.
 
 **Log Out**
 
@@ -234,7 +234,7 @@ Using card layout, users can discover more about available Magical Tools and get
 **Profile Page**
 
 * Users can see them own added spells.
-* If user hasn't added any recipes, a suggestion to do that is presented along with a button to redirect directly to Add Spell page.
+* If user hasn't added any spells, a suggestion to do that is presented along with a button to redirect directly to Add Spell page.
 * Users can edit, delete and add spells.
 * If user is Admin, than another option for Manage Categories is available, where Admin can add, edit and delete spell categories.
 
