@@ -160,16 +160,26 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ### Technologies Used
 
+* [BSON](https://bsonspec.org/) - bson.objectid is a required dependency for MongoDB management system.
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
-* [Materialize Css](https://materializecss.com/about.html) - to simplify the structure of website and make it responsive.
+* [Materialize Css](https://materializecss.com/about.html) - library used to simplify the structure of website and make it responsive.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).
-* [JQuery](https://jquery.com/) came with Bootstrap.
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - framework used to create and populate the templates.
+* [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - Jinja templating language was used to simplify and display backend data in html.
+* [JQuery](https://jquery.com/) - used to activate the Materialize functionality.
+* [PyMongo](https://pypi.org/project/pymongo/) - flask_pymongo used for interacting with MongoDB database from Python.
+* [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) - used for password hashing and authentication.
+* [Git](https://git-scm.com/) - used for version control to commit to Git and push to Heroku.
 * Project code stored on [GitHub](https://github.com/).
 * [gitpod.io](https://gitpod.io/workspaces) was used for coding.
+* [Heroku](https://www.heroku.com/home) - cloud platform used to deploy application.
+* [PEP8](https://www.python.org/dev/peps/pep-0008/) - used to check code for PEP8 requirements.
+* [PEP8online](http://pep8online.com/) - used to check code for PEP8 requirements.
+* [RandomKeygen](https://randomkeygen.com/) - used to generate secure password to Secret Key.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
 * [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
-* [jshint.com](http://jshint.com) used for JavaScript code validation.
+* [jshint.com](http://jshint.com) used for jQuery code validation.
 * [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
 
