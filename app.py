@@ -224,6 +224,13 @@ def delete_category(category_id):
     flash("Spell Category Successfully Deleted")
     return redirect(url_for("get_categories"))
 
+
+# Error Handlers
+@app.errorhandler(404)
+def response_404(e):
+    return render_template("404.html")
+
+
 #Run the App
 #Change debug from True to False before submitting
 if __name__ == "__main__":
