@@ -1,6 +1,6 @@
 # Magic Spells
 
-![](project_files/website/responsive_d.jpg "")
+![Magic Spells](project_files/website/responsive_magic.jpg "Magic Spells")
 
 * [Click here](https://magic-spells-project.herokuapp.com/) and view the live project.
 
@@ -188,7 +188,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 # Completed Live Site
 
-
+* [Click here](https://magic-spells-project.herokuapp.com/) and view the live site.
 
 ## Existing features 
 
