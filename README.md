@@ -189,11 +189,78 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Existing features 
 
+Every page of the website features a consistently responsive and intuitive layout and navigational system:
+
+**General features**
+
+* Fixed navbar to be seen at all times.
+* Responsive site on all devices.
+* Navbar shown as a collapsible navbar (hamburger button) triggered at tablets and mobile devices.
+* Search bar allowing users to search for spells.
+
+**Home Page**
+
+* Home page features an eye catching and modern design.
+* Users can get redirected directly to Spell page, Magical Tools page and Register page.
+
+**Spells Page**
+
+* Users can search for spells.
+* Users can read spells and see who added the spells.
+
+**Magical Tools Page**
+
+Using card layout, users can discover more about available Magical Tools and get redirected to the site and buy the products.
+
+**Log In Page**
+
+* Log In is possible after registered.
+* User gets a flash message when loged in.
+* Users can be redirected directly to Registration Page if not already registered.
+* User get redirected to Profile Page after login in.
+
+**Log Out**
+
+* User get redirected to Log In Page after loging out.
+* User gets a flash message when loged out to verify user loged out.
+
+**Register Page**
+
+* New visiters can register to website.
+* User gets a flash welcome message at Profile page when registered.
+* Visitor can be redirected directly to Log In Page if already registered.
+* Visitor gets redirected to Profile Page after registered.
+
+**Profile Page**
+
+* Users can see them own added spells.
+* If user hasn't added any recipes, a suggestion to do that is presented along with a button to redirect directly to Add Spell page.
+* Users can edit, delete and add spells.
+* If user is Admin, than another option for Manage Categories is available, where Admin can add, edit and delete spell categories.
+
+**Add Spells**
+
+* User can choose between categories, add a spell title, add a spell description, add ingredients, process for the spell, add date of spell added.
+* User gets a flash message when added a spell.
+* After adding spell, user is redirected to spell page.
+
+**Edit Spell**
+
+* User can edit info on one or more sections in the spell.
+* User gets a flash message when edited a spell.
+* After editing spell, user is redirected to spell page.
+
+**Delete Spell**
+
+* Only logged in user is able to delete them own spells.
+* User gets a confirmation pop-up for deleted spell when deleting a spell.
 
 ## Features to Implement in future
 
 * Provide ability for admin to delete other user spells
 * Provide the structure where pictures match the spell category on selection
+* Ability to reset an account password
+* Create a chatt/forum for the community to grow
 
 # Testing
 
