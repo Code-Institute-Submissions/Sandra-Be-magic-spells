@@ -139,7 +139,7 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 
 ### Wireframes
 
-![Wireframes](project_files/wireframes/aed_wireframe.png "Wireframes") 
+![Wireframes](project_files/wireframes/wireframes_magic.png "Wireframes") 
 
 ## Design
 ### Colour scheme
