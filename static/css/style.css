@@ -86,7 +86,11 @@ img .responsive-img {
 
 /* Spells */
 
-.btn-small {
+.search-btn a {
+    margin: 5px;
+}
+
+.search-btn button {
     margin: 5px;
 }
 
@@ -124,6 +128,10 @@ img .responsive-img {
 .spell .spell-line {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+}
+
+.spell .search-btn {
+    margin: 5px;
 }
 
 /* Modal */
@@ -164,4 +172,7 @@ img .responsive-img {
 	nav .brand-logo {
         font-size: 16px;
 	}
+    .spell .spell-line {
+        font-size: 16px;
+    }
 	}
