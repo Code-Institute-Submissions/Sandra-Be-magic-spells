@@ -145,13 +145,13 @@ View of the main home page for website:
 
 Views of the rest pages on website:
 
-* ![Spells](project_files/wireframes/wireframes_spells.png "Spells")
-* ![Magical Tools](project_files/wireframes/wireframes_tools.png "Magical Tools")
-* ![Log In](project_files/wireframes/wireframes_log_in.png "Log In")
-* ![Register](project_files/wireframes/wireframes_register.png "Register")
-* ![User Profile](project_files/wireframes/wireframes_profile.png "User Profile")
-* ![Add Spell](project_files/wireframes/wireframes_add.png "Add Spell")
-* ![Manage Spell Categories](project_files/wireframes/wireframes_categories.png "Manage Spell Categories")
+* [Spells](project_files/wireframes/wireframes_spells.png "Spells")
+* [Magical Tools](project_files/wireframes/wireframes_tools.png "Magical Tools")
+* [Log In](project_files/wireframes/wireframes_log_in.png "Log In")
+* [Register](project_files/wireframes/wireframes_register.png "Register")
+* [User Profile](project_files/wireframes/wireframes_profile.png "User Profile")
+* [Add Spell](project_files/wireframes/wireframes_add.png "Add Spell")
+* [Manage Spell Categories](project_files/wireframes/wireframes_categories.png "Manage Spell Categories")
 
 ## Design
 ### Colour scheme
