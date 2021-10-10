@@ -139,7 +139,19 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 
 ### Wireframes
 
+View of the main home page for website:
+
 ![Wireframes](project_files/wireframes/wireframes_magic.png "Wireframes") 
+
+Views of the rest pages on website:
+
+* ![Spells](project_files/wireframes/wireframes_spells.png "Spells")
+* ![Magical Tools](project_files/wireframes/wireframes_tools.png "Magical Tools")
+* ![Log In](project_files/wireframes/wireframes_log_in.png "Log In")
+* ![Register](project_files/wireframes/wireframes_register.png "Register")
+* ![User Profile](project_files/wireframes/wireframes_profile.png "User Profile")
+* ![Add Spell](project_files/wireframes/wireframes_add.png "Add Spell")
+* ![Manage Spell Categories](project_files/wireframes/wireframes_categories.png "Manage Spell Categories")
 
 ## Design
 ### Colour scheme
@@ -263,7 +275,7 @@ Using card layout, users can discover more about available Magical Tools and get
 * Provide ability for admin to delete other user spells
 * Provide the structure where pictures match the spell category on selection
 * Ability to reset an account password
-* Create a chatt/forum for the community to grow
+* Create a chat/forum for the community to grow
 
 # Testing
 
