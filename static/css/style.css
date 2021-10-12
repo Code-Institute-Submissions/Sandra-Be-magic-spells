@@ -27,7 +27,20 @@ nav .brand-logo {
 }
 
 nav ul li:hover {
-    background-color: #c5cae9;
+    background-color: rgb(197, 202, 233);
+}
+
+header .sidenav {
+    background-color: rgb(158, 158, 158);
+}
+
+header .sidenav li a {
+    font-size: 20px !important;
+    text-align: center;
+}
+
+header .sidenav li a:hover {
+    background-color: rgb(197, 202, 233);
 }
 
 .flashes h4 {
@@ -71,17 +84,17 @@ img .responsive-img {
 
 .login-card label {
     font-size: 14px;
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
 }
 
 .login-card input {
     font-size: 20px !important;
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
 }
 
 .input-field textarea {
     font-size: 20px !important;
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
 }
 
 /* Spells */
@@ -105,23 +118,23 @@ img .responsive-img {
 }
 
 .valign-wrapper input {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /* Profile */
 
 .login-card a {
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
     font-family: 'Raleway', sans-serif; 
 }
 
 .profile-card p {
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
     font-family: 'Raleway', sans-serif;
 }
 
 .profile-card h5 {
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -148,11 +161,11 @@ img .responsive-img {
 /* Modal */
 
 .modal {
-    background-color: #bdbdbd;
+    background-color: rgb(189, 189, 189);
 }
 
 .modal .modal-footer {
-    background-color: #bdbdbd;
+    background-color: rgb(189, 189, 189);
     text-align: center;
     padding: 0px 6px;
 }
@@ -160,7 +173,7 @@ img .responsive-img {
 .modal-content p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px !important;
-    color: black;
+    color: rgb(0, 0, 0);
     text-shadow: none;
 }
 
@@ -171,11 +184,11 @@ img .responsive-img {
 }
 
 .page-footer i {
-    color: #c5cae9;
+    color: rgb(197, 202, 233);
 }
 
 .page-footer i:hover {
-    color: #33691e;
+    color: rgb(51, 105, 30);
 }
 
 /* Mobile view */
