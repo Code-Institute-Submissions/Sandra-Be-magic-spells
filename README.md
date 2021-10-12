@@ -113,13 +113,14 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 ## Scope
 ### User stories
 
-1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can better develop my personal wellbeing.
-2. As a new client to this website, I want to get a wide range of spells, so I can apply them to my lifestyle. 
-3. As a new client to this website, I want to have the option to search for the spells I'm looking for, so I can find what I need.
-4. As a new client to this website, I want to access an external resource link for magical tools, so I can purchase a product.
-5. As a new client to this website, I want to join this website, so I can become a part of this community.
-6. As a client to this website, I want to share my spells with other members in the community, so I can help people in their challenges.
-7. As a client to this website, I want to take an action on shared spells, so I can develop and grow the database.
+1. As a new user to this website, I want to find information that is quick and easy to navigate through the website, so that I can better develop my personal wellbeing.
+2. As a new user to this website, I want to get a wide range of spells, so I can apply them to my lifestyle. 
+3. As a new user to this website, I want to have the option to search for the spells I'm looking for, so I can find what I need.
+4. As a new user to this website, I want to access an external resource link for magical tools, so I can purchase a product.
+5. As a new user to this website, I want to join this website, so I can become a part of this community.
+6. As an user to this website, I want to share my spells with other members in the community, so I can help people in their challenges.
+7. As an user to this website, I want to take an action on shared spells, so I can develop and grow the database.
+8. As an admin of this website, I want to take an action on information provided on this website, so I can manage categories of spells.
 
 ### Features
 
