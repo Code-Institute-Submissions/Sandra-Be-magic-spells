@@ -310,6 +310,66 @@ To validate every page of the project, that there were no syntax errors, these t
 
 ## User stories testing
 
+   1. As a new user to this website, I want to find information that is quick and easy to navigate through the website, so that I can better develop my personal wellbeing.
+
+The Navigation bar is implemented into the website, so that any new user is able to find any information quick and easy navigating through th website.
+
+This Navigation bar is implemented on the desktop and laptop view:
+
+![Navigation bar](project_files/user_stories/u1.jpg "Navigation bar")
+
+This Navigation bar is implemented on tablet and mobile view:
+
+![Navigation bar](project_files/user_stories/u2.jpg "Navigation bar")
+![Navigation bar](project_files/user_stories/u3.jpg "Navigation bar")
+
+   2. As a new user to this website, I want to get a wide range of spells, so I can apply them to my lifestyle.
+
+Link button "Search for Spell" on Home page leads to Spells page which provides a library with wide range of spells.
+
+![Search for Spell](project_files/user_stories/u4.jpg "Search for Spell")
+![Spell library](project_files/user_stories/u5.jpg "Spell library")
+
+   3. As a new user to this website, I want to have the option to search for the spells I'm looking for, so I can find what I need.
+
+Search Bar is implemented on top of the Spell library with buttons "Reset" and "Search" for user to search up for spells.
+
+![Search Bar](project_files/user_stories/u6.jpg "Search Bar") 
+
+   4. As a new user to this website, I want to access an external resource link for magical tools, so I can purchase a product.
+
+Home page provide eye catching layout from cards for user access external resource link. Link navigate to Magical Tools page and provide opportunity for user actually purchase product.
+
+![External link](project_files/user_stories/u7.jpg "External Link")
+![Buy Now](project_files/user_stories/u8.jpg "Buy Now")
+
+   5. As a new user to this website, I want to join this website, so I can become a part of this community.
+
+Navigation Bar provide user link for Register, also beautiful card welcome user to Join Community and Register. Clicking on the links user is redirected to Register page. 
+
+![Link Register](project_files/user_stories/u9.jpg "Link Register")
+![Join Us](project_files/user_stories/u10.jpg "Join Us")
+![Register page](project_files/user_stories/u11.jpg "Register page")
+
+   6. As an user to this website, I want to share my spells with other members in the community, so I can help people in their challenges.
+
+As an user, website provide option to add spell to an existing library and any member of this website is able to access it.
+
+![Add Spell](project_files/user_stories/u12.jpg "Add Spell")
+![Spell library](project_files/user_stories/u5.jpg "Spell library")
+
+   7. As an user to this website, I want to take an action on shared spells, so I can develop and grow the database.
+
+On users profile member can see his/hers own added spells and edit or delete them. Meanwhile user can click on link for spells and access all of other user added spells.
+
+![Profile](project_files/user_stories/u13.jpg "Profile")
+
+   8. As an admin of this website, I want to take an action on information provided on this website, so I can manage categories of spells.
+
+Only Admin has privilege to Manage Categories of the spells on this site.
+
+![Categories](project_files/user_stories/u14.jpg "Categories")
+![Categories](project_files/user_stories/u15.jpg "Categories")
    
 ## Functional testing
 
