@@ -130,7 +130,7 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 
 ### Site structure
 
-![Structure](project_files/website/structure_3.jpg "Structure")
+![Structure](project_files/website/structure_magic.jpg "Structure")
 
 ## Skeleton
 ### Quick sketch
