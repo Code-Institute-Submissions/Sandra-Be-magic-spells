@@ -141,6 +141,7 @@ def add_spell():
             "spell_description": request.form.get("spell_description"),
             "spell_list": request.form.get("spell_list"),
             "spell_process": request.form.get("spell_process"),
+            #"spell_date": datetime.datetime.now().strftime("%d %B, %Y"),
             "spell_date": request.form.get("spell_date"),
             "added_by": session["user"]
         }
@@ -162,6 +163,7 @@ def edit_spell(spell_id):
             "spell_description": request.form.get("spell_description"),
             "spell_list": request.form.get("spell_list"),
             "spell_process": request.form.get("spell_process"),
+            #"spell_date": datetime.datetime.now().strftime("%d %B, %Y"),
             "spell_date": request.form.get("spell_date"),
             "added_by": session["user"]
         }
