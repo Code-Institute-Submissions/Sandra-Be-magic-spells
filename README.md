@@ -310,10 +310,48 @@ To validate every page of the project, that there were no syntax errors, these t
    
 ## Functional testing
 
-Throughout the website every link, field and icon was tested and all results are displayed in the table below:
+Throughout the website every link, field and icon was tested and all results are displayed on the table below:
 
 | Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
 | :----: | :----: | :----: | :----: | :----: |
+| Navbar | *Home* link | Click on *Home* link navigate to Top of page | Navigate to Top of page | Pass |
+| Navbar | *Spells* link | Click on *Spells* link navigate to Spells page | Navigate to Spells page | Pass |
+| Navbar | *Magical Tools* link | Click on *Magical Tools* link navigate to Magical Tools page | Navigate to Magical Tools page | Pass |
+| Navbar | *Log In* link | Click on *Log In* link navigate to Log In page | Navigate to Log In page | Pass |
+| Navbar | *Register* link | Click on *Register* link navigate to Register page | Navigate to Register page | Pass |
+| Navbar | *Profile* link | Click on *Profile* link navigate to Profile page | Navigate to Profile page | Pass |
+| Navbar | *Add Spell* link | Click on *Add Spell* link navigate to Add Spell page | Navigate to Add Spell page | Pass |
+| Navbar | *Log Out* link | Click on *Log Out* link navigate to Log In page | Navigate to Log In page | Pass |
+| Home page | *Search for Spell* link | Click on *Search for Spell* link navigate to Spells page | Navigate to Spells page | Pass |
+| Home page | *Discover More* link | Click on *Discover More* link navigate to Magical Tools page | Navigate to Magical Tools page | Pass |
+| Spells page | Search form input field | Search form input field allow to type a text | Allow to type a text | Pass |
+| Spells page | Search form *Reset* link | Search form *Reset* link reset all Spells page | Reset all Spells page | Pass |
+| Spells page | Search form *Search* button | Search form *Search* button search for text from input field throughout all spells and display matching spells | Search for text from input field throughout all spells and display matching spells | Pass |
+| Magical Tools | *Buy Now* link | Click on *Buy now* link navigate to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Navigate to to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Pass |
+| Log In page | Log In form username input field | Log In form username input field allow to type and validate a username | Allow to type and validate a username | Pass |
+| Log In page | Log In form password input field | Log In form password input field allow to type and validate a password | Allow to type and validate a password | Pass |
+| Log In page | Log In form *Log In* button | Log In form *Log In* button verify username, password and redirect to user profile page | Verify username, password and redirect to user profile page | Pass |
+| Log In page | Log In form *Register Account* link | Log In form *Register Account* link navigate user to Register page | Navigate user to Register page | Pass |
+| Register page | Register form username input field | Register form username input field allow to create and validate a username | Allow to create and validate a username | Pass |
+| Register page | Register form password input field | Register form password input field allow to create and validate a password | Allow to create and validate a password | Pass |
+| Register page | Register form *Register* button | Register form *Register* button create username, password and redirect to user profile page | Create username, password and redirect to user profile page | Pass |
+| Register page | Register form *Log In* link | Register form *Log In* link navigate user to Log In page | Navigate user to Log In page | Pass |
+| New User Profile page | *Add Spell* link | *Add Spell* link navigate user to Add Spell page | Navigate user to Add Spell page | Pass |
+| Existing User Profile page | *Edit* link | *Edit* link navigate user to Edit Spell page | Navigate user to Edit Spell page | Pass |
+| Existing User Profile page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
+| Modal | *Delete* link | *Delete* link delete spell from database | Delete spell from database | Pass |
+| Modal | *Cancel* link | *Cancel* link navigate to existing user profile page | Navigate to existing user profile page | Pass |
+| Admin Profile page | *Manage Categories* link | *Manage Categories* link navigate to Manage categories page | Navigate to Manage categories page | Pass |
+| Manage categories page | *Edit* link | *Edit* link navigate to Edit Category page | Navigate to Edit Category page | Pass |
+| Manage categories page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
+| Admin Profile page | *Edit* link | *Edit* link navigate user to Edit Spell page | Navigate user to Edit Spell page | Pass |
+| Admin Profile page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
+| Add Spell page | Add Spell form select input field | Add Spell form select input field allow to choose and validate a categories | Allow to choose and validate a categories | Pass |
+| Add Spell page | Add Spell form input field | Add Spell form input field allow to type and validate a text | Allow to type and validate a text | Pass |
+| Add Spell page | Add Spell form "Add Spell" button | Add Spell form "Add Spell" button add information to databaseand redirect user to Spells page | Add information to databaseand redirect user to Spells page | Pass |
+| Footer | *GitHub* icon | Click on *GitHub* icon navigate to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Navigate to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Pass |
+
+
 
 # Database Design
 
