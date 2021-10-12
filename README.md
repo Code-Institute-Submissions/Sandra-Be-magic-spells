@@ -17,7 +17,6 @@
    * [Scope](#Scope)
       * [User stories](#User-stories)
       * [Features](#Features)
-      * [Content](#Content)
    * [Structure](#Structure)
       * [Site structure](#Site-structure)
    * [Skeleton](#Skeleton)
@@ -124,8 +123,12 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 
 ### Features
 
-
-### Content
+* An easy navigation throughout the website with fixed navbar
+* A link button for Magic Spells database
+* A link button for Magical Tools purchase
+* A link button for new users to register into website
+* A search field to find quicker necessary information 
+* A responsive design to be able target broader audiences
 
 ## Structure
 
