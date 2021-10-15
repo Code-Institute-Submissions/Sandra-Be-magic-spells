@@ -139,7 +139,7 @@ I am creating the perfect collection of spells for the amatuer who desires to ch
 ## Skeleton
 ### Quick sketch
 
-![Quick sketch](project_files/website/d_sketch.jpg "Quick sketch")
+![Quick sketch](project_files/website/sketch.jpg "Quick sketch")
 
 ### Wireframes
 
