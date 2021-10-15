@@ -47,7 +47,6 @@
    * [Heroku Deployment](#Heroku-Deployment)
 7. [Credits](#Credits)
    * [Images and text](#Images-and-text)
-   * [Code](#Code)
    * [Helpfull sites](#Helpfull-sites)
    * [Acknowledgements](#Acknowledgements)
 
@@ -170,6 +169,7 @@ Gloria Hallelujah, Raleway fonts are the main fonts for website and Sans Serif f
 
 ### Media
 
+Card Panel and contrasting colours are used to strike and catch the user's attention to promote the website.
 
 ### Languages
 
@@ -332,20 +332,20 @@ Link button "Search for Spell" on Home page leads to Spells page which provides 
 
    3. As a new user to this website, I want to have the option to search for the spells I'm looking for, so I can find what I need.
 
-Search Bar is implemented on top of the Spell library with buttons "Reset" and "Search" for user to search up for spells.
+Search Bar is implemented on top of the Spell library with buttons "Reset" and "Search" for user to search for spells.
 
 ![Search Bar](project_files/user_stories/u6.jpg "Search Bar") 
 
    4. As a new user to this website, I want to access an external resource link for magical tools, so I can purchase a product.
 
-Home page provide eye catching layout from cards for user access external resource link. Link navigate to Magical Tools page and provide opportunity for user actually purchase product.
+Home page provides eye catching layout from cards for user access external resource link. Link navigates to Magical Tools page and provide opportunity for user actually purchase product.
 
 ![External link](project_files/user_stories/u7.jpg "External Link")
 ![Buy Now](project_files/user_stories/u8.jpg "Buy Now")
 
    5. As a new user to this website, I want to join this website, so I can become a part of this community.
 
-Navigation Bar provide user link for Register, also beautiful card welcome user to Join Community and Register. Clicking on the links user is redirected to Register page. 
+Navigation Bar provides user link for Register, also beautiful card welcome for user to Join Community and Register. Clicking on the links user is redirected to Register page. 
 
 ![Link Register](project_files/user_stories/u9.jpg "Link Register")
 ![Join Us](project_files/user_stories/u10.jpg "Join Us")
@@ -353,7 +353,7 @@ Navigation Bar provide user link for Register, also beautiful card welcome user 
 
    6. As an user to this website, I want to share my spells with other members in the community, so I can help people in their challenges.
 
-As an user, website provide option to add spell to an existing library and any member of this website is able to access it.
+As an user, website provides option to add spell to an existing library and any member of this website is able to access it.
 
 ![Add Spell](project_files/user_stories/u12.jpg "Add Spell")
 ![Spell library](project_files/user_stories/u5.jpg "Spell library")
@@ -377,52 +377,50 @@ Throughout the website every link, field and icon was tested and all results are
 
 | Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
 | :----: | :----: | :----: | :----: | :----: |
-| Navbar | *Home* link | Click on *Home* link navigate to Top of page | Navigate to Top of page | Pass |
-| Navbar | *Spells* link | Click on *Spells* link navigate to Spells page | Navigate to Spells page | Pass |
-| Navbar | *Magical Tools* link | Click on *Magical Tools* link navigate to Magical Tools page | Navigate to Magical Tools page | Pass |
-| Navbar | *Log In* link | Click on *Log In* link navigate to Log In page | Navigate to Log In page | Pass |
-| Navbar | *Register* link | Click on *Register* link navigate to Register page | Navigate to Register page | Pass |
-| Navbar | *Profile* link | Click on *Profile* link navigate to Profile page | Navigate to Profile page | Pass |
-| Navbar | *Add Spell* link | Click on *Add Spell* link navigate to Add Spell page | Navigate to Add Spell page | Pass |
-| Navbar | *Log Out* link | Click on *Log Out* link navigate to Log In page | Navigate to Log In page | Pass |
-| Home page | *Search for Spell* link | Click on *Search for Spell* link navigate to Spells page | Navigate to Spells page | Pass |
-| Home page | *Discover More* link | Click on *Discover More* link navigate to Magical Tools page | Navigate to Magical Tools page | Pass |
-| Spells page | Search form input field | Search form input field allow to type a text | Allow to type a text | Pass |
-| Spells page | Search form *Reset* link | Search form *Reset* link reset all Spells page | Reset all Spells page | Pass |
+| Navbar | *Home* link | Click on *Home* link navigates to Top of page | Navigates to Top of page | Pass |
+| Navbar | *Spells* link | Click on *Spells* link navigates to Spells page | Navigates to Spells page | Pass |
+| Navbar | *Magical Tools* link | Click on *Magical Tools* link navigates to Magical Tools page | Navigates to Magical Tools page | Pass |
+| Navbar | *Log In* link | Click on *Log In* link navigates to Log In page | Navigates to Log In page | Pass |
+| Navbar | *Register* link | Click on *Register* link navigates to Register page | Navigates to Register page | Pass |
+| Navbar | *Profile* link | Click on *Profile* link navigates to Profile page | Navigates to Profile page | Pass |
+| Navbar | *Add Spell* link | Click on *Add Spell* link navigates to Add Spell page | Navigates to Add Spell page | Pass |
+| Navbar | *Log Out* link | Click on *Log Out* link navigates to Log In page | Navigates to Log In page | Pass |
+| Home page | *Search for Spell* link | Click on *Search for Spell* link navigates to Spells page | Navigates to Spells page | Pass |
+| Home page | *Discover More* link | Click on *Discover More* link navigates to Magical Tools page | Navigates to Magical Tools page | Pass |
+| Spells page | Search form input field | Search form input field allows to type a text | Allows to type a text | Pass |
+| Spells page | Search form *Reset* link | Search form *Reset* link resets all Spells page | Resets all Spells page | Pass |
 | Spells page | Search form *Search* button | Search form *Search* button search for text from input field throughout all spells and display matching spells | Search for text from input field throughout all spells and display matching spells | Pass |
-| Magical Tools | *Buy Now* link | Click on *Buy now* link navigate to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Navigate to to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Pass |
-| Log In page | Log In form username input field | Log In form username input field allow to type and validate a username | Allow to type and validate a username | Pass |
-| Log In page | Log In form password input field | Log In form password input field allow to type and validate a password | Allow to type and validate a password | Pass |
+| Magical Tools | *Buy Now* link | Click on *Buy now* link navigates to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Navigates to to [website](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2) | Pass |
+| Log In page | Log In form username input field | Log In form username input field allows to type and validate a username | Allows to type and validate a username | Pass |
+| Log In page | Log In form password input field | Log In form password input field allows to type and validate a password | Allows to type and validate a password | Pass |
 | Log In page | Log In form *Log In* button | Log In form *Log In* button verify username, password and redirect to user profile page | Verify username, password and redirect to user profile page | Pass |
-| Log In page | Log In form *Register Account* link | Log In form *Register Account* link navigate user to Register page | Navigate user to Register page | Pass |
-| Register page | Register form username input field | Register form username input field allow to create and validate a username | Allow to create and validate a username | Pass |
-| Register page | Register form password input field | Register form password input field allow to create and validate a password | Allow to create and validate a password | Pass |
-| Register page | Register form *Register* button | Register form *Register* button create username, password and redirect to user profile page | Create username, password and redirect to user profile page | Pass |
-| Register page | Register form *Log In* link | Register form *Log In* link navigate user to Log In page | Navigate user to Log In page | Pass |
-| New User Profile page | *Add Spell* link | *Add Spell* link navigate user to Add Spell page | Navigate user to Add Spell page | Pass |
-| Existing User Profile page | *Edit* link | *Edit* link navigate user to Edit Spell page | Navigate user to Edit Spell page | Pass |
-| Existing User Profile page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
-| Modal | *Delete* link | *Delete* link delete spell from database | Delete spell from database | Pass |
-| Modal | *Cancel* link | *Cancel* link navigate to existing user profile page | Navigate to existing user profile page | Pass |
-| Admin Profile page | *Manage Categories* link | *Manage Categories* link navigate to Manage categories page | Navigate to Manage categories page | Pass |
-| Manage categories page | *Edit* link | *Edit* link navigate to Edit Category page | Navigate to Edit Category page | Pass |
-| Manage categories page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
-| Admin Profile page | *Edit* link | *Edit* link navigate user to Edit Spell page | Navigate user to Edit Spell page | Pass |
-| Admin Profile page | *Delete* link | *Delete* link call for modal | Call for modal | Pass |
-| Add Spell page | Add Spell form select input field | Add Spell form select input field allow to choose and validate a categories | Allow to choose and validate a categories | Pass |
-| Add Spell page | Add Spell form input field | Add Spell form input field allow to type and validate a text | Allow to type and validate a text | Pass |
-| Add Spell page | Add Spell form "Add Spell" button | Add Spell form "Add Spell" button add information to databaseand redirect user to Spells page | Add information to databaseand redirect user to Spells page | Pass |
-| Footer | *GitHub* icon | Click on *GitHub* icon navigate to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Navigate to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Pass |
-
-
+| Log In page | Log In form *Register Account* link | Log In form *Register Account* link navigates user to Register page | Navigates user to Register page | Pass |
+| Register page | Register form username input field | Register form username input field allows to create and validate a username | Allows to create and validate a username | Pass |
+| Register page | Register form password input field | Register form password input field allows to create and validate a password | Allows to create and validate a password | Pass |
+| Register page | Register form *Register* button | Register form *Register* button creates username, password and redirect to user profile page | Creates username, password and redirect to user profile page | Pass |
+| Register page | Register form *Log In* link | Register form *Log In* link navigates user to Log In page | Navigates user to Log In page | Pass |
+| New User Profile page | *Add Spell* link | *Add Spell* link navigates user to Add Spell page | Navigates user to Add Spell page | Pass |
+| Existing User Profile page | *Edit* link | *Edit* link navigates user to Edit Spell page | Navigates user to Edit Spell page | Pass |
+| Existing User Profile page | *Delete* link | *Delete* link calls for modal | Calls for modal | Pass |
+| Modal | *Delete* link | *Delete* link deletes spell from database | Deletes spell from database | Pass |
+| Modal | *Cancel* link | *Cancel* link navigates to existing user profile page | Navigates to existing user profile page | Pass |
+| Admin Profile page | *Manage Categories* link | *Manage Categories* link navigates to Manage categories page | Navigates to Manage categories page | Pass |
+| Manage categories page | *Edit* link | *Edit* link navigates to Edit Category page | Navigates to Edit Category page | Pass |
+| Manage categories page | *Delete* link | *Delete* link calls for modal | Calls for modal | Pass |
+| Admin Profile page | *Edit* link | *Edit* link navigates user to Edit Spell page | Navigates user to Edit Spell page | Pass |
+| Admin Profile page | *Delete* link | *Delete* link calls for modal | Calls for modal | Pass |
+| Add Spell page | Add Spell form select input field | Add Spell form select input field allows to choose and validate a categories | Allows to choose and validate a categories | Pass |
+| Add Spell page | Add Spell form input field | Add Spell form input field allows to type and validate a text | Allows to type and validate a text | Pass |
+| Add Spell page | Add Spell form "Add Spell" button | Add Spell form "Add Spell" button adds information to databaseand redirect user to Spells page | Adds information to databaseand redirect user to Spells page | Pass |
+| Footer | *GitHub* icon | Click on *GitHub* icon navigates to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Navigates to [GitHub repository](https://github.com/Sandra-Be/magic-spells) | Pass |
 
 # Database Design
 
-MongoDB Atlas is used as database backend for storing user and recipes details. There are three collections.
+MongoDB Atlas is used as database backend for storing user and spells details. There are three collections.
 
 ## Database schema
 
-
+![Database Schema](project_files/website/shema.jpg "Database Schema")
 
 # Deployment
 
@@ -510,10 +508,6 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 * Home page and background image on this website were obtained from [bing.com](https://www.bing.com/images/search?q=magic+photos+with+girl&form=HDRSC2&first=1&tsc=ImageBasicHover).
 * Magical Tools images were obtained from [White Magic Alchemy](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2)
-
-## Code
-
-
 
 ## Helpfull sites
 
