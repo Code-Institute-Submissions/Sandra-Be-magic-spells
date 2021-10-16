@@ -53,9 +53,9 @@
 # Introduction
 
 
-I have always been interested in old traditions, from pagan times to white witchcraft and the the connections that these create with the mind spirit and the earth, living in a world that has become sick, the earth is unhealthy and our lifesyles are stressed were we have lost all connections and stopped listening to our planet.
+I have always been interested in old traditions, from pagan times to white witchcraft and the the connections that these create with the mind spirit and the earth, living in a world that has become sick, the earth is unhealthy and our lifesyles are stressed where we have lost all connections and stopped listening to our planet.
 
-So I was inspired to follow and seek traditional ways to help bring our mind spirit and body back to the basics were we hear ourselves again, listen to the world around us in a spirital, pure sense and awaking the true us as emotional spiritual beings.
+So I was inspired to follow and seek traditional ways to help bring our mind spirit and body back to the basics where we hear ourselves again, listen to the world around us in a spirital, pure sense and awaking the true us as emotional spiritual beings.
 
 I am creating the perfect collection of spells for the amatuer who desires to channel the potent magic of nature.
 

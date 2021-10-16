@@ -20,14 +20,14 @@
                 {% endif %}
 
                 <div class="row profile-card">
-                    <h5 class="center-align">Thank you {{ username }} for joining our Magic Spells community! Hope you will have wonderfull time!</h5>
+                    <h5 class="center-align">Thank you {{ username }} for joining our Magic Spells community! Hope you enjoy your time here!</h5>
                 </div>
 
                 <!-- Message, if user hasn't added any spells -->
                 {% if spells|length == 0 %}
                     <div class="row profile-card">
                         <div class="col s12 center-align">
-                            <p>Unfortunately, you haven't added any spells yet. Click the button underneath and make it happen!</p>
+                            <p>Unfortunately, you haven't added any spells yet. Click the button underneath to make it happen!</p>
                             <a href="{{ url_for('add_spell') }}" class="btn-large purple darken-2 text-shadow waves-effect waves-light">
                                 Add Spell <i class="fas fa-pencil-alt right"></i>
                             </a>
