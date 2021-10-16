@@ -28,7 +28,9 @@
                     <div class="row profile-card">
                         <div class="col s12 center-align">
                             <p>Unfortunately, you haven't added any spells yet. Click the button underneath and make it happen!</p>
-                            <a href="{{ url_for('add_spell') }}" class="btn purple darken-2 text-shadow waves-effect waves-light">Add Spell</a>
+                            <a href="{{ url_for('add_spell') }}" class="btn-large purple darken-2 text-shadow waves-effect waves-light">
+                                Add Spell <i class="fas fa-pencil-alt right"></i>
+                            </a>
                         </div>
                     </div>
                 {% endif %} 
