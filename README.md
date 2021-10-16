@@ -35,7 +35,6 @@
    * [W3C Validation](#W3C-Validation)
    * [Jshint Validation](#Jshint-Validation)
    * [PEP8 Validation](#PEP8-Validation)
-   * [Bugs and Issues](#Bugs-and-Issues)
    * [User stories testing](#User-stories-testing)
    * [Functional testing](#Function-testing)
 5. [Database Design](#Database-Design)
@@ -293,10 +292,12 @@ Using card layout, users can discover more about available Magical Tools and get
 
 ## W3C Validation
 
-To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator. Files of .pdf format is available under each Validator link:
+To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
+To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
+For W3C Css Validtor I copied css code directly.
 
-* [W3C Validator](project_files/validators/w3c.pdf "W3C Validator")
-* [W3C CSS Validator](project_files/validators/W3C_css.pdf "W3C CSS Validator")
+* [W3C Validator](project_files/validators/w3c_1.jpg "W3C Validator")
+* [W3C CSS Validator](project_files/validators/W3c_css.pdf "W3C CSS Validator")
 
 ## Jshint Validation
 
@@ -306,14 +307,6 @@ Jshint were used to validate jQuery file of this project. [Click](project_files/
 ## PEP8 Validation
 
 Python code checked for PEP8 requirements. [Click](project_files/validators/pep8.jpg) to view report.
-
-## Bugs and Issues
-
-**W3C Validator**
-
-
-**W3C CSS Validator**
-
 
 ## User stories testing
 
