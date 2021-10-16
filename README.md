@@ -508,6 +508,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 * Home page and background image on this website were obtained from [bing.com](https://www.bing.com/images/search?q=magic+photos+with+girl&form=HDRSC2&first=1&tsc=ImageBasicHover).
 * Magical Tools images were obtained from [White Magic Alchemy](https://whitemagickalchemy.com/witchcraft-supplies/?sort=featured&page=2)
+* Text for this site were obtained from "The Witchcraft Handbook", Midia Star.
 
 ## Helpfull sites
 
