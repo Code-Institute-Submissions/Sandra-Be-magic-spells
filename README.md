@@ -288,19 +288,20 @@ Using card layout, users can discover more about available Magical Tools and get
 * Tested on Chrome, Firefox and Microsoft Edge desktop version browsers.
 * Chrome DevTools was used to test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8, Galaxy S5 and iPad for responsiveness.
 * Testing was done to ensure that layout and all Links were working correctly.
-* Lighthouse report on Developer tools:
-
-![Lighthouse](assets/project_files/website/lighthouse_report.jpg "Lighthouse")
+* [Lighthouse report on Developer tools](project_files/website/lighthouse.jpg "Lighthouse Report")
 
 ## W3C Validation
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator. Files of .pdf format is available under each Validator link:
 
-* ![W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator")
-* ![W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator")
+* [W3C Validator](project_files/validators/w3c.pdf "W3C Validator")
+* [W3C CSS Validator](project_files/validators/W3C_css.pdf "W3C CSS Validator")
 
 ## Jshint Validation
 
+## PEP8 Validation
+
+Python code checked for PEP8 requirements. [Click](project_files/validators/pep8.jpg) to view report.
 
 ## Bugs and Issues
 
