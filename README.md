@@ -204,6 +204,8 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 # Completed Live Site
 
+![Website Layout](project_files/website/website_layout.jpg "Website Layout")
+
 * [Click here](https://magic-spells-project.herokuapp.com/) and view the live site.
 
 ## Existing features 
