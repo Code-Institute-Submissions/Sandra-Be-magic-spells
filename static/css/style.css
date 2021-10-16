@@ -65,6 +65,10 @@ img .responsive-img {
     margin: 10px 0 30px 0;
 }
 
+.card .card-description {
+    font-size: 20px;
+}
+
 .home-info p {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -114,6 +118,11 @@ img .responsive-img {
 .collapsible-header .col strong {
     margin: 5px;
     line-height: 42px;
+}
+
+.collapsible-body .spell-req {
+    color:rgb(0, 0, 0);
+    font-size: 18px !important;
 }
 
 .card-panel h2 {
@@ -215,5 +224,8 @@ main {
     }
     .card-image .activator {
         height: 250px;
+    }
+    .card .card-description {
+        font-size: 14px;
     }
 	}
