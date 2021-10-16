@@ -34,6 +34,7 @@
 4. [Testing](#Testing)
    * [W3C Validation](#W3C-Validation)
    * [Jshint Validation](#Jshint-Validation)
+   * [PEP8 Validation](#PEP8-Validation)
    * [Bugs and Issues](#Bugs-and-Issues)
    * [User stories testing](#User-stories-testing)
    * [Functional testing](#Function-testing)
@@ -298,6 +299,9 @@ To validate every page of the project, that there were no syntax errors, these t
 * [W3C CSS Validator](project_files/validators/W3C_css.pdf "W3C CSS Validator")
 
 ## Jshint Validation
+
+For this project I used jQuery - JavaScript Library for MaterializeCSS initialization: "Write less, do more."
+Jshint were used to validate jQuery file of this project. [Click](project_files/validators/jshint.jpg) to view report.
 
 ## PEP8 Validation
 
