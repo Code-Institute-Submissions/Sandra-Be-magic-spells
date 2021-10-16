@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 from flask import (
     Flask, flash, render_template,
     redirect, request, session, url_for)
@@ -135,14 +136,15 @@ def logout():
 @app.route("/add_spell", methods=["GET", "POST"])
 def add_spell():
     if request.method == "POST":
+        todaydate = datetime.today()
         spell = {
             "category_name": request.form.get("category_name"),
             "spell_title": request.form.get("spell_title"),
             "spell_description": request.form.get("spell_description"),
             "spell_list": request.form.get("spell_list"),
             "spell_process": request.form.get("spell_process"),
-            #"spell_date": datetime.datetime.now().strftime("%d %B, %Y"),
-            "spell_date": request.form.get("spell_date"),
+            "spell_date": '{0:%d} {0:%B}, {0:%Y}'.format(
+                todaydate, "day", "month", "year"),
             "added_by": session["user"]
         }
         mongo.db.spells.insert_one(spell)
@@ -157,14 +159,15 @@ def add_spell():
 @app.route("/edit_spell/<spell_id>", methods=["GET", "POST"])
 def edit_spell(spell_id):
     if request.method == "POST":
+        todaydate = datetime.today()
         submit = {
             "category_name": request.form.get("category_name"),
             "spell_title": request.form.get("spell_title"),
             "spell_description": request.form.get("spell_description"),
             "spell_list": request.form.get("spell_list"),
             "spell_process": request.form.get("spell_process"),
-            #"spell_date": datetime.datetime.now().strftime("%d %B, %Y"),
-            "spell_date": request.form.get("spell_date"),
+            "spell_date": '{0:%d} {0:%B}, {0:%Y}'.format(
+                todaydate, "day", "month", "year"),
             "added_by": session["user"]
         }
         mongo.db.spells.update({"_id": ObjectId(spell_id)}, submit)
