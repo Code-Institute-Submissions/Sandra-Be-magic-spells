@@ -41,10 +41,9 @@
    * [Database schema](#Database-schema)
 6. [Deployment](#Deployment)
    * [MongoDB Configuration](#MongoDB-Configuration)
-   * [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+   * [Heroku Deployment](#Heroku-Deployment)
    * [Forking the Repository](#Forking-the-Repository)
    * [Creating a Clone](#Creating-a-Clone)
-   * [Heroku Deployment](#Heroku-Deployment)
 7. [Credits](#Credits)
    * [Images and text](#Images-and-text)
    * [Helpfull sites](#Helpfull-sites)
@@ -438,18 +437,29 @@ MongoDB Atlas is used as database backend for storing user and spells details. T
 
 ![Link](project_files/website/link_snippet1.jpg "Link")
 
-## Deploying on GitHub Pages
+## Heroku Deployment
 
-1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
-3. At the top of the repository, select Settings from the menu items.
-4. Scroll down the Settings page to the "GitHub Pages" section.
-5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
-6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
-7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
-8. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
+1. Before deploying your project create a requirements.txt file by running the following command in the CLI:
 
-## Forking the Repository
+![Command](project_files/website/command1.jpg "Command")
+
+2. Create a Procfile file by running the following command in the CLI:
+
+![Command](project_files/website/command2.jpg "Command")
+
+3. git add and git commit the new requirements and Procfile and then git push the project to GitHub.
+4. Log in to [Heroku](https://id.heroku.com/login).
+5. Select "New" on your dashboard and then select "Create new app".
+6. Choose a name for your application, select your region, and then click "Create app".
+7. From the app dashboard, navigate to "Deploy" tab.
+8. From Deployment method select "Github" and confirm the linking of the Heroku app by clicking "Search" then select your repository name.
+9. Once you select your repository, click on "Connect".
+10. After you connected to your repository, click on "Settings" tab on your app dashboard, and click on "Reveal Config Vars" and add your configuration variables to Heroku.
+11. Navigate to "Deploy" tab, and from Manual deploy choose your master branch, and click "Deploy Branch".
+12. After you deployed your branch "Enable Automatic Deploys".
+13. Site is successfully deployed, any further changes will automatically be updated everytime they are commited and pushed on Github.
+
+## Forking the GitHub Repository
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
 2. Locate the [GitHub Repository](https://github.com/Sandra-Be/magic-spells).
@@ -479,28 +489,6 @@ MongoDB Atlas is used as database backend for storing user and spells details. T
 8. Press Enter. Your local clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
-## Heroku Deployment
-
-1. Before deploying your project create a requirements.txt file by running the following command in the CLI:
-
-![Command](project_files/website/command1.jpg "Command")
-
-2. Create a Procfile file by running the following command in the CLI:
-
-![Command](project_files/website/command2.jpg "Command")
-
-3. git add and git commit the new requirements and Procfile and then git push the project to GitHub.
-4. Log in to [Heroku](https://id.heroku.com/login).
-5. Select "New" on your dashboard and then select "Create new app".
-6. Choose a name for your application, select your region, and then click "Create app".
-7. From the app dashboard, navigate to "Deploy" tab.
-8. From Deployment method select "Github" and confirm the linking of the Heroku app by clicking "Search" then select your repository name.
-9. Once you select your repository, click on "Connect".
-10. After you connected to your repository, click on "Settings" tab on your app dashboard, and click on "Reveal Config Vars" and add your configuration variables to Heroku.
-11. Navigate to "Deploy" tab, and from Manual deploy choose your master branch, and click "Deploy Branch".
-12. After you deployed your branch "Enable Automatic Deploys".
-13. Site is successfully deployed, any further changes will automatically be updated everytime they are commited and pushed on Github.
 
 # Credits
 
