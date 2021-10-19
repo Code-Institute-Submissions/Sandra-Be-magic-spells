@@ -247,6 +247,7 @@ Using card layout, users can discover more about available Magical Tools and get
 **Register Page**
 
 * New visiters can register to website.
+* New visiter has to confirm created password on second password field for more security. This option was added later as per mentors advice.
 * User gets a flash welcome message at Profile page when registered.
 * Visitor can be redirected directly to Log In Page if already registered.
 * Visitor gets redirected to Profile Page after registered.
