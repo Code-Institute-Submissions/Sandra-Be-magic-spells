@@ -65,6 +65,11 @@ def register():
             flash("Unfortunately username already exists, try different one!")
             return redirect(url_for("register"))
 
+        # check if passwords match
+        if request.form.get("password") != request.form.get("confirm-password"):
+            flash("Your passwords did not match, please try again!")
+            return redirect(url_for("register"))
+
         register = {
             "username": request.form.get("username").lower(),
             "password": generate_password_hash(request.form.get("password"))
