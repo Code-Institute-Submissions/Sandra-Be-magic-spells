@@ -507,5 +507,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Acknowledgements 
 
-* My mentor for helpful feedback.
+* My mentor Dick Vlaanderen for helpful feedback.
 * Student support at Code Institute Slack platform for their support.
