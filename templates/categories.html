@@ -26,13 +26,13 @@
                                         class="btn search-btn text-shadow purple darken-2 waves-effect waves-light">
                                         Edit
                                     </a>
-                                    <a href="#modal1"
+                                    <a href="#{{ category._id }}"
                                         class="btn search-btn modal-trigger text-shadow red darken-2 waves-effect waves-light">
                                         Delete
                                     </a>
 
                                     <!-- Modal structure -->
-                                    <div id="modal1" class="modal">
+                                    <div id="{{ category._id }}" class="modal">
                                         <div class="modal-content">
                                             <p>Are you sure that you want to delete this category?</p>
                                         </div>
