@@ -188,7 +188,7 @@ def edit_spell(spell_id):
 def delete_spell(spell_id):
     mongo.db.spells.remove({"_id": ObjectId(spell_id)})
     flash("Spell Deleted")
-    return redirect(url_for("get_spells")
+    return redirect(url_for("get_spells"))
 
 
 # Categories page
