@@ -22,7 +22,7 @@
                         <i class="fas fa-lock prefix light-green-text text-darken-4"></i>
                         <input id="password" name="password" type="password" minlength="5"
                             maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
-                        <label for="password"> Create Password</label>
+                        <label for="password">Create Password</label>
                     </div>
                 </div>
                 <!-- Confirm Password field -->
@@ -45,7 +45,9 @@
                     <div class="col s12">
                         <p class="center-align indigo-text text-lighten-4">
                             Already Registered?
-                            <a href="{{ url_for('login') }}" class="light-green-text text-darken-4">Log In</a>
+                            <a href="{{ url_for('login') }}" class="light-green-text text-darken-4">
+                                Log In
+                            </a>
                         </p>
                     </div>
                 </div>

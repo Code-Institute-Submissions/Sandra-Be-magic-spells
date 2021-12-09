@@ -15,7 +15,9 @@
                                 <label for="query">Search Spells</label>
                             </div>
                             <div class="col s12 m4 search-btn">
-                                <a href="{{ url_for('get_spells') }}" class="red darken-2 btn text-shadow waves-effect waves-light">Reset</a>
+                                <a href="{{ url_for('get_spells') }}" class="red darken-2 btn text-shadow waves-effect waves-light">
+                                    Reset
+                                </a>
                                 <button type="submit" class="purple darken-2 btn text-shadow waves-effect waves-light">
                                     Search
                                 </button>
@@ -45,9 +47,8 @@
                         {% endfor %}
                     </ul>
                 {% else %}
-                    <h3 class="red-text text-darken-4 center-align">No Results Found</h3>
-                {% endif %}
-    
+                    <h3 class="red-text text-darken-4 center-align">No Results Found!</h3>
+                {% endif %}    
             </div>
         </div>    
     </div>
