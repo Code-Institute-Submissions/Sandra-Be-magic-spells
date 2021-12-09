@@ -294,9 +294,9 @@ Using card layout, users can discover more about available Magical Tools and get
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
 To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
-For W3C Css Validtor I copied css code directly.
+For W3C Css Validator I copied css code directly.
 
-* [W3C Validator](project_files/validators/w3c_1.jpg "W3C Validator")
+* [W3C Validator](project_files/validators/w3c.jpg "W3C Validator")
 * [W3C CSS Validator](project_files/validators/W3c_css.pdf "W3C CSS Validator")
 
 ## Jshint Validation
